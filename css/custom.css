@@ -1,1 +1,33 @@
 /* custom css */
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+h1 {
+	text-align:center;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style-type: none;
+	margin: 0 1%;
+	padding: 10px;
+	float:left;
+	width:30%;
+}
+li.one {
+	background-color:#008b8b;
+	margin: 0 1% 0 0 ;
+}
+li.two {
+	
+	background-color:#33cccc;
+	margin: 1% 1% 0 0 ;
+}
+li.three {
+	background-color:#66ffcc;
+	margin: 1% 0% 0 0 ;
+}
