@@ -57,7 +57,13 @@ li {
 	float: left;
 	list-style: none;
 }
+/*#myID {
 
+}
+li#myID {
+
+}*/
+ 
 li.one {
 	margin: 0 1% 0 0;
 	background-color: #FF944D;
@@ -77,8 +83,21 @@ h3 a {
 	color: #222;
 	text-decoration: none;
 }
+h3 a:link{
+
+}
 
 h3 a:hover {
 	color: #FFF;
-};
+}
+
+h3 a:actve {
+	color: #blue;
+}
+
+h3 a:visited{
+	color: pink;
+
+}
+;
 >>>>>>> FETCH_HEAD
